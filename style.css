@@ -1,0 +1,183 @@
+@media screen and (min-width:1001px) {
+  body{
+    margin: 0;
+  }
+
+  .pc_heapder a{
+    color: black;
+    text-decoration: none;
+  }
+  .pc_topmenu ul{
+    padding: 0;
+  }
+  .pc_header li{
+    list-style: none;
+  }
+
+  .pc_topmenu{
+    background-color: rgb(242, 156, 40);
+    position: relative;
+    }
+
+  .pc_topmenu ul{
+    margin: 0 ;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+  }
+
+  .pc_topmenu li{
+    list-style: none;
+    line-height: 100px;
+    margin: 0 70px;
+  }
+  .pc_topmenu a{
+    font-size: 1.7vw;
+  }
+
+  .pc_main{
+    position: relative;
+  }
+  .pc_main img{
+    width: 100%;
+    opacity: 0.5;
+  }
+  .pc_main h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    font-size: 5.0vw;
+  }
+  .pc_main p{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    font-size: 3.0vw;
+  }
+
+  .pc_about{
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .pc_about h1{
+    text-align: center;
+    margin: 60px 0 70px 0;
+  }
+  .pc_about img{
+    width: 150px;
+    display: inline-block;
+    align-self: start;
+    margin-right: 80px;
+    line-height: 100px;
+  }
+  .pc_explanation{
+    font-size: 18px;
+  }
+  .pc_aboutflex{
+    display: flex;
+  }
+  .pc_aboutbrock{
+    display: block;
+  }
+  .pc_name{
+    font-size: 2.0vw;
+    margin-top: 0;
+  }
+
+  .pc_work img{
+    width: 300px;
+  }
+  .pc_work1,.pc_work2,.pc_work3{
+    margin: 60px 20px 0 20px;
+  }
+  .pc_workflex p{
+    width: 300px;
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .pc_work h1{
+    text-align: center;
+    margin-top: 120px;
+  }
+
+  .pc_workbacground{
+    background-color: rgb(242, 156, 40);
+  }
+  .pc_work{
+    width: 1000px;
+    margin: 0 auto;
+    
+  }
+  .pc_workflex{
+    display: flex;
+    justify-content: center;
+  }
+  .pc_workflex a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .pc_skill{
+    margin-top: 200px;
+  }
+  .pc_skill h1{
+    text-align: center;
+  }
+  img.html,img.css,img.js{
+    width: 100px;
+    display: inline-block;
+    margin-left: 200px;
+    margin-right: 100px;
+  }
+  .pc_skill p{
+    font-size: 18px;
+  }
+  .pc_html_flex,.pc_css_flex,.pc_js_flex,.pc_kintone_flex{
+    display: flex;
+    margin: 30px 0 50px 0;
+  }
+  img.kintone{
+    display: inline-block;
+    margin-left: 120px;
+    margin-right: 80px;
+    width: 200px;
+  }
+
+  .pc_skill{
+  width: 1000px;
+    margin: 0 auto;
+  }
+
+  .pc_contact_outside{
+    background-color: rgb(242, 156, 40);
+    height: 250px;
+  }
+  .pc_contact{
+    text-align: center;
+    margin-top: 200px;
+  }
+
+  .pc_contact h1{
+    margin-bottom: 0;
+  }
+  .pc_contact p{
+    margin-bottom: 60px;
+    margin-top: 10px;
+  }
+  .pc_contact button{
+    font-size: 30px;
+    padding: 5px 50px;
+    border-radius: 10px;
+  }
+
+  .pc_footer p{
+    text-align: center;
+  }
+}

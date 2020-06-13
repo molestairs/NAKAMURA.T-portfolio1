@@ -1,0 +1,138 @@
+@media screen and (max-width:1000px) {
+  body{
+    margin: 0;
+  }
+  /* body img{
+    width: 100%;
+  } */
+  .pc_main{
+    width: 100%;
+  }
+  .ip_topmenu a{
+    color: black;
+    text-decoration: none;
+  }
+  .ip_topmenu ul{
+    padding: 0;
+  }
+  .ip_header li{
+    list-style: none;
+  }
+  .ip_topmenu{
+    background-color: rgb(242, 156, 40);
+    position: relative;
+    }
+    .ip_topmenu ul{
+      margin: 0 ;
+      display: flex;
+      height: 100px;
+      justify-content: center;
+    }
+    .ip_topmenu li{
+      list-style: none;
+      line-height: 100px;
+      margin: 0 5px;
+    }
+    .ip_main{
+      position: relative;
+    }
+    /* .ip_topmenu a{
+      font-size: 1.7vw;
+    } */
+    .ip_main img{
+      width: 100%;
+      opacity: 0.5;
+    }
+    .ip_main h1{
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+      font-size: 5.0vw;
+    }
+    .ip_main p{
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+      font-size: 3.0vw;
+    }
+
+    /* .ip_about{
+      width: 1000px;
+      margin: 0 auto;
+    } */
+    .ip_about h1{
+      text-align: center;
+      /* margin: 60px 0 70px 0; */
+    }
+
+    .ip_aboutflex{
+      display: block;
+      text-align: center;
+    }
+    .ip_aboutflex p{
+      margin: 20px 10px 10px 10px;
+      font-size: 12px;
+    }
+
+    .ip_workbacground{
+      background-color: rgb(242, 156, 40);
+    }
+
+    .ip_work img{
+      width: 300px;
+    }
+    .ip_work1,.ip_work2,.ip_work3,.ip_work h1{
+      text-align: center;
+    }
+    .ip_workflex a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .pc_skill h1{
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .ip_html_flex,.ip_css_flex,.ip_js_flex{
+      margin-bottom: 50px;
+    }
+    .ip_kintone_flex img{
+      width: 160px;
+      
+    }
+    .ip_kintone_flex{
+      margin-bottom: 50px;
+    }
+    .ip_contact_outside{
+      background-color: rgb(242, 156, 40);
+    }
+    .ip_contact{
+      text-align: center;
+    }
+    .ip_contact h1{
+      text-align: center;
+    }
+    .ip_contact p{
+      text-align: center;
+      font-size: 12px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 30px;
+    }
+
+    .ip_contact button{
+      text-align: center;
+      padding: 5px 50px;
+      border-radius: 10px;
+    }
+    .pc_footer p{
+      text-align: center;
+      font-size: 12px;
+    }
+  }
